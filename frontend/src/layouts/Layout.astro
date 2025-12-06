@@ -1,0 +1,21 @@
+---
+import MenuPrincipal from '../components/MenuPrincipal.astro'; 
+import "../styles/global.css"; // 
+
+const { titulo = "Buscador IR" } = Astro.props; 
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{titulo}</title>
+	</head>
+	<body class="bg-[#008080] min-h-screen font-sans"> 
+        
+        <MenuPrincipal />
+        
+		<slot /> 
+	</body>
+</html>

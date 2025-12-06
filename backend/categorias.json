@@ -1,0 +1,118 @@
+{
+  "Tecnologia": [
+    "software", "hardware", "algoritmo", "codigo", "python", "java", "javascript", "react", "angular", "vue",
+    "api", "rest", "json", "xml", "base de datos", "sql", "nosql", "servidor", "nube", "cloud", "aws", "azure",
+    "docker", "kubernetes", "linux", "windows", "macos", "inteligencia artificial", "machine learning", "redes",
+    "ciberseguridad", "encriptacion", "blockchain", "git", "github", "devops", "agile", "scrum", "programacion",
+    "desarrollador", "ingenieria", "sistema", "interfaz", "usuario", "backend", "frontend", "fullstack", "movil",
+    "app", "web", "internet", "protocolo", "http", "binario", "compilador", "framework", "libreria", "solr",
+    "lucen", "microservicio", "virtualizacion", "robotica", "automatizacion", "pixel", "resolucion", "pantalla",
+    "procesador", "memoria", "ram", "disco duro", "ssd", "teclado", "mouse", "monitor", "router", "wifi",
+    "bluetooth", "smartphone", "tablet", "laptop", "ordenador", "computadora", "digital", "analogico", "logica",
+    "bug", "debug", "version", "repositorio", "terminal", "consola", "comando", "script", "navegador", "cookie",
+    "cache", "firewall", "proxy", "vpn", "dominio", "hosting", "deploy", "produccion", "testing", "qa"
+  ],
+  "Salud": [
+    "medicina", "medico", "doctor", "enfermera", "hospital", "clinica", "paciente", "salud", "enfermedad",
+    "virus", "bacteria", "infeccion", "tratamiento", "terapia", "cirugia", "farmaco", "medicamento", "pastilla",
+    "vacuna", "dosis", "diagnostico", "sintoma", "fiebre", "dolor", "cancer", "diabetes", "cardiologia",
+    "neurologia", "pediatria", "anatomia", "cuerpo", "sangre", "corazon", "cerebro", "pulmon", "hueso",
+    "musculo", "piel", "nutricion", "dieta", "vitamina", "ejercicio", "mental", "psicologia", "psiquiatria",
+    "emergencia", "ambulancia", "rehabilitacion", "genetica", "adn", "celula", "biologia", "pandemia",
+    "epidemia", "inmune", "sistema", "respiratorio", "digestivo", "nervioso", "optica", "oftalmologia",
+    "dentista", "odontologia", "higiene", "prevencion", "riesgo", "mortalidad", "esperanza", "vida", "parto",
+    "embarazo", "bebe", "geriatria", "anciano", "cuidado", "intensivo", "uci", "quirofano", "anestesia",
+    "receta", "farmacia", "laboratorio", "analisis", "sangre", "orina", "rayos x", "radiografia", "resonancia",
+    "ecografia", "traumatologia", "fractura", "esguince", "herida", "cicatriz", "dermatologia", "alergia"
+  ],
+  "Legal": [
+    "ley", "legislacion", "derecho", "norma", "reglamento", "articulo", "constitucion", "codigo civil", "penal",
+    "juez", "abogado", "fiscal", "jurado", "tribunal", "corte", "juicio", "demanda", "denuncia", "sentencia",
+    "veredicto", "apelacion", "litigio", "contrato", "clausula", "firma", "notario", "juridico", "legal",
+    "ilegal", "delito", "crimen", "robo", "fraude", "homicidio", "violencia", "derechos humanos", "propiedad",
+    "intelectual", "patente", "marca", "impuesto", "tributario", "laboral", "despido", "sindicato", "divorcio",
+    "herencia", "testamento", "custodia", "fianza", "prision", "carcel", "policia", "investigacion",
+    "evidencia", "prueba", "testigo", "declaracion", "juramento", "audiencia", "proceso", "procedimiento",
+    "administrativo", "decreto", "resolucion", "dictamen", "perito", "arbitraje", "mediacion", "conciliacion",
+    "indemnizacion", "perjuicio", "daño", "responsabilidad", "civil", "penal", "mercantil", "sociedad",
+    "anonima", "limitada", "escritura", "publica", "registro", "civil", "propiedad", "notaria", "legislar",
+    "parlamento", "congreso", "senado", "diputado", "voto", "eleccion", "democracia", "justicia", "libertad"
+  ],
+  "Educacion": [
+    "escuela", "colegio", "universidad", "instituto", "academia", "facultad", "campus", "aula", "clase",
+    "curso", "taller", "seminario", "diplomado", "maestria", "doctorado", "tesis", "investigacion", "alumno",
+    "estudiante", "profesor", "maestro", "docente", "pedagogia", "didactica", "enseñanza", "aprendizaje",
+    "examen", "prueba", "evaluacion", "calificacion", "nota", "promedio", "beca", "matricula", "egresado",
+    "titulo", "diploma", "certificado", "leccion", "tarea", "deberes", "biblioteca", "libro", "lectura",
+    "escritura", "alfabetizacion", "curriculo", "materia", "asignatura", "ciencias", "humanidades", "arte",
+    "historia", "geografia", "matematicas", "fisica", "quimica", "biologia", "literatura", "filosofia",
+    "educacion fisica", "recreo", "pizarron", "tablero", "pupitre", "cuaderno", "lapiz", "boligrafo",
+    "mochila", "uniforme", "director", "rector", "decano", "secretaria", "academico", "escolar", "preescolar",
+    "primaria", "secundaria", "bachillerato", "preparatoria", "grado", "posgrado", "investigador", "paper",
+    "publicacion", "cientifica", "revista", "conferencia", "simposio", "congreso", "conocimiento", "saber"
+  ],
+  "Deportes": [
+    "deporte", "futbol", "baloncesto", "basket", "tenis", "natacion", "atletismo", "ciclismo", "beisbol",
+    "voleibol", "rugby", "golf", "boxeo", "artes marciales", "gimnasio", "entrenamiento", "ejercicio",
+    "jugador", "atleta", "entrenador", "arbitro", "equipo", "seleccion", "club", "liga", "torneo",
+    "campeonato", "copa", "mundial", "olimpiadas", "partido", "juego", "competencia", "ganador", "perdedor",
+    "medalla", "trofeo", "gol", "canasta", "punto", "marcador", "estadio", "cancha", "pista", "record",
+    "meta", "carrera", "velocidad", "resistencia", "fuerza", "musculacion", "fitness", "yoga", "pilates",
+    "crossfit", "running", "maraton", "triatlon", "portero", "defensa", "delantero", "arbitraje", "falta",
+    "penalti", "tarjeta", "roja", "amarilla", "tiempo", "prorroga", "descanso", "banquillo", "fichaje",
+    "temporada", "playoff", "final", "semifinal", "cuartos", "octavos", "grupo", "clasificacion", "tabla",
+    "posicion", "ranking", "medallero", "olimpico", "paralimpico", "doping", "fair play", "aficion", "barra"
+  ],
+  "Ciencia": [
+    "ciencia", "cientifico", "laboratorio", "experimento", "hipotesis", "teoria", "ley", "metodo", "empirico",
+    "observacion", "analisis", "dato", "resultado", "conclusion", "publicacion", "paper", "revista", "nature",
+    "science", "nobel", "fisica", "quimica", "biologia", "geologia", "ecologia", "ambiente", "energia",
+    "atomo", "molecula", "particula", "cuantico", "relatividad", "gravedad", "fuerza", "movimiento", "velocidad",
+    "aceleracion", "masa", "peso", "volumen", "densidad", "temperatura", "calor", "frio", "termodinamica",
+    "electricidad", "magnetismo", "optica", "luz", "sonido", "onda", "frecuencia", "espectro", "reaccion",
+    "elemento", "compuesto", "tabla periodica", "acido", "base", "ph", "solucion", "mezcla", "gas", "liquido",
+    "solido", "plasma", "celula", "genetica", "evolucion", "darwin", "ecosistema", "clima", "cambio climatico",
+    "sostenibilidad", "renovable", "solar", "eolica", "nuclear", "fosil", "petroleo", "mineral", "roca"
+  ],
+  "Astronomia": [
+    "astronomia", "espacio", "universo", "cosmos", "galaxia", "via lactea", "sistema solar", "planeta",
+    "tierra", "marte", "jupiter", "saturno", "urano", "neptuno", "pluton", "sol", "luna", "estrella",
+    "constelacion", "asteroide", "cometa", "meteorito", "satelite", "orbita", "gravedad", "agujero negro",
+    "supernova", "nebulosa", "big bang", "expansion", "telescopio", "observatorio", "nasa", "esa", "spacex",
+    "cohete", "nave", "astronaauta", "cosmonauta", "estacion espacial", "iss", "mision", "lanzamiento",
+    "aterrizaje", "alunizaje", "atmosfera", "exoplaneta", "vida extraterrestre", "alienigena", "ovni",
+    "año luz", "parsec", "distancia", "vacio", "oscuridad", "materia oscura", "energia oscura", "relatividad",
+    "einstein", "hawking", "cosmos", "cielo", "noche", "eclipse", "fase lunar", "equinoccio", "solsticio",
+    "rotacion", "traslacion", "eje", "polo", "norte", "sur", "magnetosfera", "aurora", "boreal", "austral"
+  ],
+  "Gastronomia": [
+    "gastronomia", "cocina", "comida", "alimento", "ingrediente", "receta", "chef", "cocinero", "restaurante",
+    "menu", "carta", "plato", "entrada", "postre", "bebida", "vino", "cerveza", "agua", "cafe", "te",
+    "fruta", "verdura", "carne", "pollo", "pescado", "marisco", "arroz", "pasta", "pan", "harina", "azucar",
+    "sal", "pimienta", "especias", "aceite", "vinagre", "salsa", "sopa", "ensalada", "guiso", "asado",
+    "frito", "horno", "parrilla", "sarten", "olla", "cuchillo", "tenedor", "cuchara", "mesa", "sabor",
+    "dulce", "salado", "amargo", "acido", "picante", "umami", "gourmet", "michelin", "cata", "maridaje",
+    "vegetariano", "vegano", "sin gluten", "organico", "casero", "tradicional", "fusion", "internacional",
+    "desayuno", "almuerzo", "cena", "merienda", "snack", "tapa", "aperitivo", "banquete", "catering", "nutricion"
+  ],
+  "Musica": [
+    "musica", "cancion", "melodia", "ritmo", "armonia", "nota", "acorde", "escala", "tono", "semitono",
+    "partitura", "pentagrama", "clave", "sol", "fa", "do", "re", "mi", "si", "la", "instrumento", "voz",
+    "canto", "cantante", "grupo", "banda", "orquesta", "coro", "solista", "guitarra", "piano", "bateria",
+    "bajo", "violin", "violonchelo", "flauta", "saxofon", "trompeta", "clarinete", "teclado", "sintetizador",
+    "percusion", "genero", "rock", "pop", "jazz", "blues", "clasica", "metal", "reggaeton", "hip hop",
+    "rap", "folk", "electronica", "dance", "disco", "vinilo", "cd", "mp3", "streaming", "spotify", "apple music",
+    "concierto", "recital", "festival", "escenario", "sonido", "altavoz", "microfono", "auriculares",
+    "grabacion", "estudio", "productor", "compositor", "letra", "album", "single", "ep", "hit", "lista"
+  ],
+  "Finanzas": [
+    "finanzas", "economia", "dinero", "moneda", "dolar", "euro", "peso", "banco", "cajero", "cuenta",
+    "ahorro", "inversion", "credito", "prestamo", "hipoteca", "interes", "tasa", "inflacion", "deflacion",
+    "mercado", "bolsa", "valores", "accion", "bono", "dividendo", "ganancia", "perdida", "riesgo",
+    "rentabilidad", "presupuesto", "gasto", "ingreso", "salario", "sueldo", "nomina", "impuesto", "tributo",
+    "hacienda", "fiscal", "auditoria", "contabilidad", "balance", "factura", "recibo", "pago", "cobro",
+    "transferencia", "cheque", "tarjeta", "efectivo", "billetera", "criptomoneda", "bitcoin", "ethereum",
+    "blockchain", "fintech", "startup", "empresa", "negocio", "comercio", "venta", "compra", "oferta",
+    "demanda", "precio", "costo", "valor", "capital", "patrimonio", "riqueza", "pobreza", "deuda", "deficit"
+  ]
+}

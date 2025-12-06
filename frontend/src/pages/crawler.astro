@@ -1,0 +1,14 @@
+---
+// src/pages/crawler.astro 
+import Layout from "../layouts/Layout.astro"; 
+import VentanaRetro from "../components/VentanaRetro.astro"; // Importamos el contenedor
+import { GestorCrawler } from "../components/GestorCrawler.tsx";
+---
+
+<Layout titulo="Gestor de Crawler">
+    <main class="p-6">
+        <VentanaRetro titulo="🕷️ Gestión de URLs Semilla y Ejecución de Crawler">
+            <GestorCrawler client:load />
+        </VentanaRetro>
+    </main>
+</Layout>

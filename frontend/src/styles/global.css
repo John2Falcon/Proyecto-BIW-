@@ -1,0 +1,9 @@
+@import "tailwindcss";
+em {
+  font-style: normal; /* Elimina la cursiva por defecto */
+  font-weight: bold;  /* Hace que el texto se vea en negrita */
+  background-color: #ffff00; /* Fondo amarillo (color marcatextos) */
+  color: #333333; /* Color de texto oscuro para buen contraste */
+  padding: 0 2px; /* Espaciado ligero para mejor visualización */
+  border-radius: 2px;
+}

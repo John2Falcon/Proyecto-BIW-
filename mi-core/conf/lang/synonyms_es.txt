@@ -1,0 +1,37 @@
+# Archivo de Sinónimos en Español para Solr (Expansión Semántica)
+# Formato: palabra_principal, sinónimo1, sinónimo2, sinónimo3, ...
+
+# --- Negocios y Economía ---
+trabajo, empleo, labor, puesto, ocupación
+empresa, compañia, firma, corporación, sociedad
+dinero, capital, fondos, efectivo, plata
+cliente, usuario, comprador, consumidor, prospecto
+comprar, adquirir, obtener, mercar, negociar
+
+# --- Tecnología e Informática ---
+computadora, ordenador, pc, equipo, máquina
+web, internet, red, online, en línea
+software, programa, aplicación, app, sistema
+celular, móvil, telefono, smartphone
+dato, información, registro, metadato, contenido
+
+# --- Lugares y Ubicación ---
+casa, hogar, morada, residencia, vivienda
+calle, avenida, vía, carretera
+mapa, plano, localización, ubicación, sitio
+ciudad, urbe, metrópolis, población
+país, nación, estado, territorio
+
+# --- Adjetivos y Conceptos ---
+rápido, veloz, fugaz, ágil
+lento, despacio, pausado, tardío
+grande, extenso, amplio, enorme, gigante
+pequeño, chico, diminuto, minúsculo
+feliz, alegre, contento, dichoso
+importante, crucial, vital, fundamental, relevante
+
+# --- Verbos de Acción ---
+hacer, realizar, efectuar, elaborar, crear
+buscar, encontrar, localizar, investigar, hallar
+decir, expresar, comunicar, mencionar, hablar
+ir, dirigirse, moverse, viajar, trasladarse

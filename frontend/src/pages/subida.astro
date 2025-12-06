@@ -1,0 +1,15 @@
+---
+// src/pages/subida.astro (VERSION FINAL Y LIMPIA)
+import Layout from "../layouts/Layout.astro"; 
+import VentanaRetro from "../components/VentanaRetro.astro"; // Importamos el contenedor
+import { SubidaArchivos } from "../components/SubidaArchivos.tsx";
+---
+
+<Layout titulo="Carga de Archivos">
+    <main class="p-6">
+        {/* Rúbrica: Usamos el componente VentanaRetro para el estilo consistente */}
+        <VentanaRetro titulo="📂 Carga de Documentos (Indexación Manual)">
+            <SubidaArchivos client:load />
+        </VentanaRetro>
+    </main>
+</Layout>

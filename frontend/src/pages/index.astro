@@ -1,0 +1,14 @@
+---
+// src/pages/index.astro
+import Layout from "../layouts/Layout.astro"; 
+import VentanaRetro from "../components/VentanaRetro.astro"; 
+import { Explorer } from "../components/Explorer.tsx"; 
+---
+
+<Layout titulo="Buscador IR">
+    <main class="p-6 flex justify-center items-start"> 
+        <VentanaRetro titulo="🔎 Buscador de documentos">
+            <Explorer client:load />
+        </VentanaRetro>
+    </main>
+</Layout>

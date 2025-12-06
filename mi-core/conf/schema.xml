@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema name="buscador_espanol" version="1.6">
+
+    <fieldType name="string" class="solr.StrField" sortMissingLast="true" />
+    
+    <fieldType name="pdate" class="solr.DatePointField"/>
+    <fieldType name="tfloat" class="solr.TrieFloatField"/>
+    
+    <fieldType name="texto_espanol" class="solr.TextField" positionIncrementGap="100">
+        <analyzer type="index">
+            <charFilter class="solr.HTMLStripCharFilterFactory"/>
+            <tokenizer class="solr.StandardTokenizerFactory"/>
+            <filter class="solr.LowerCaseFilterFactory"/>
+            <filter class="solr.ASCIIFoldingFilterFactory"/> 
+            <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_es.txt"/>
+            <filter class="solr.SpanishLightStemFilterFactory"/> 
+            <filter class="solr.SynonymGraphFilterFactory" synonyms="lang/synonyms_es.txt" ignoreCase="true" expand="true"/>
+            <filter class="solr.FlattenGraphFilterFactory"/>
+        </analyzer>
+        <analyzer type="query">
+            <tokenizer class="solr.StandardTokenizerFactory"/>
+            <filter class="solr.LowerCaseFilterFactory"/>
+            <filter class="solr.ASCIIFoldingFilterFactory"/>
+            <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_es.txt"/>
+            <filter class="solr.SpanishLightStemFilterFactory"/>
+            <filter class="solr.SynonymGraphFilterFactory" synonyms="lang/synonyms_es.txt" ignoreCase="true" expand="true"/>
+        </analyzer>
+    </fieldType>
+
+    <fieldType name="texto_sugerencias" class="solr.TextField" positionIncrementGap="100">
+        <analyzer>
+            <tokenizer class="solr.StandardTokenizerFactory"/>
+            <filter class="solr.LowerCaseFilterFactory"/>
+            <filter class="solr.ASCIIFoldingFilterFactory"/>
+            </analyzer>
+    </fieldType>
+
+    <field name="hash_contenido" type="string" indexed="true" stored="true"/>
+
+    <field name="campo_sugerencias" type="texto_sugerencias" indexed="true" stored="true" multiValued="true"/>
+
+    <copyField source="titulo" dest="campo_sugerencias"/>
+
+    <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
+    
+    <field name="titulo" type="texto_espanol" indexed="true" stored="true"/>
+    <field name="contenido" type="texto_espanol" indexed="true" stored="true" termVectors="true" termPositions="true" termOffsets="true"/>
+    <field name="url" type="string" indexed="true" stored="true"/>
+    
+    <field name="extension" type="string" indexed="true" stored="true"/> 
+    <field name="categoria" type="string" indexed="true" stored="true" multiValued="true"/> 
+    <field name="fecha" type="pdate" indexed="true" stored="true"/>
+    
+    <field name="importancia" type="tfloat" indexed="true" stored="true" default="1.0"/>
+
+    <uniqueKey>id</uniqueKey>
+    
+</schema>

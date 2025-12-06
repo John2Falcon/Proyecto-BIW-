@@ -1,0 +1,40 @@
+---
+// src/components/VentanaRetro.astro
+const { titulo = "Sistema IR" } = Astro.props;
+
+const enlaces = [
+    { href: "/", etiqueta: "🔎 Buscador" },
+    { href: "/subida", etiqueta: "📂 Carga de Archivos" },
+    { href: "/crawler", etiqueta: "🕷️ Gestor de Crawler" },
+];
+---
+<div class="w-full max-w-6xl p-4 mx-auto">
+    <div class="bg-[#C0C0C0] border-2 border-t-white border-l-white border-b-black border-r-black shadow-xl">
+        
+        <div class="flex justify-between items-center h-8 bg-[#000080] text-white font-bold px-2">
+            <p>{titulo}</p>
+            <div class="flex space-x-1">
+                <button class="h-5 w-5 bg-[#C0C0C0] border-2 border-t-white border-l-white border-b-black border-r-black text-black text-xs">_</button>
+                <button class="h-5 w-5 bg-[#C0C0C0] border-2 border-t-white border-l-white border-b-black border-r-black text-black text-xs">X</button>
+            </div>
+        </div>
+
+        {enlaces.map((enlace) => (
+            <a 
+                href={enlace.href} 
+                className={`
+                    px-3 py-1 text-black font-semibold text-sm 
+                    border-2 border-t-white border-l-white border-b-black border-r-black 
+                    bg-[#C0C0C0] no-underline hover:bg-[#D6D6D6]
+                    active:border-t-black active:border-l-black active:border-b-white active:border-r-white
+                `}
+            >
+                {enlace.etiqueta}
+            </a>
+        ))}
+
+        <div class="p-4">
+            <slot />
+        </div>
+    </div>
+</div>
